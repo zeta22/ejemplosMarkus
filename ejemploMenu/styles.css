@@ -1,0 +1,22 @@
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+
+.menu > .list-item {
+    flex-grow: 1;
+
+    font-family: "Arial";
+    font-size: 18px;
+    background-color: #0a0a0a;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.menu > .list-item:hover {
+    cursor: pointer;
+    background-color: gray;
+}
